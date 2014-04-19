@@ -1,6 +1,6 @@
 DWScript in a DLL
 =================
-(Delphi Web Scripting in a Dynamic Link Library for runing Object Pascal scripts in C [and other languages])
+(Delphi Web Scripting in a Dynamic Link Library for running Object Pascal scripts in C [and other languages])
 
 What it is.
 -----------
