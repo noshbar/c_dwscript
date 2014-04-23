@@ -49,6 +49,8 @@ My only worry then is that you'd have to change from stdcall to cdecl, thereby l
 Free Pascal Notes.
 ------------------
 
+**TL;DR;** Only [this](https://dl.dropboxusercontent.com/u/4716604/fpc2.7.1.7z) binary collection of FPC 2.7.1 works for me.
+
 I initially started this project using [Free Pascal](http://www.freepascal.org/).
 
 As DWScript uses Generics, I needed a newer version of the Free Pascal compiler than what they provide on their home page (2.6).
@@ -76,4 +78,4 @@ Oh well, no worry, I'll just try:
     dwscript.lpr(157,1) Error: Undefined symbol: VMT_$DWSUTILS_$$_$GENDEF386
 
 I've done some investigation into it, I built a little Python Pascal Parser to detect differentiating Interface/Implementation function descriptions and found some things... but nothing the compiler seems upset about.  
-I'll see if I can find the version of FPC I was using successfully and post a link to it here when I do... otherwise, I hear FPC 3.0 comes out next year!
+So instead, if you want to use Free Pascal to compile this, you can try using the binary dump of FPC2.7.1 I took from my working version of Laz4Anroid from [here](https://dl.dropboxusercontent.com/u/4716604/fpc2.7.1.7z).
